@@ -14,5 +14,9 @@
     },
     "engines": {
         "vscode": "^1.85.0"
+    },
+    "dependencies": {
+        "generator-code": "^1.11.13",
+        "yo": "^5.1.0"
     }
 }
