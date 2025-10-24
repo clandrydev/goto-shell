@@ -1,0 +1,18 @@
+{
+    "name": "goto-shell",
+    "displayName": "GOTO Shell",
+    "description": "Retro-themed command interpreter for PowerShell",
+    "version": "0.0.1",
+    "main": "./extension.js",
+    "contributes": {
+        "commands": [
+            {
+                "command": "goto-shell.run",
+                "title": "Run GOTO Shell Command"
+            }
+        ]
+    },
+    "engines": {
+        "vscode": "^1.85.0"
+    }
+}
